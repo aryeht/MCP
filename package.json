@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@kazumatu981/markdown-it-kroki": "file:../../markdown-it-kroki",
+    "@marp-team/marp-cli": "^4.2.3"
+  },
+  "name": "mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": ""
+}
