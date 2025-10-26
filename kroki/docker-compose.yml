@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  kroki:
+    image: yuzutech/kroki:latest
+    container_name: kroki
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    # Uncomment to limit memory/CPU if needed
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: '0.50'
+    #       memory: 512M
