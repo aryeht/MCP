@@ -149,7 +149,6 @@ Notes:
 
 ---
 
-<!-- Slide 3: Evolution -->
 # 🧬 Evolution: From GEN-AI to Agentic Systems
 
 GEN-AI era: prompt → LLM → free-form text
@@ -162,7 +161,6 @@ Agentic / MCP era: LLMs orchestrate tool servers, subagents, modular tool calls
 
 ---
 
-<!-- Slide 4: Concept of Agent -->
 # 🧠 The Concept of an Agent
 
 ```mermaid
@@ -333,6 +331,10 @@ Security: sandboxing, RBAC, secrets leakage
 
 Observability & debugging gaps in complex agent failures
 
+Streamable HTTP is the modern, recommended transport for the Model Context Protocol (MCP), replacing the older Server-Sent Events (SSE) transport, which is now legacy.
+
+Look out for Google's A2A Protocol. (docker vs kubernetes ?)
+
 ---
 
 # Takeaways & Recommendations
@@ -352,6 +354,6 @@ Start small (few MCP servers), then expand registry, monitoring...
 ## Saved prompts
 
 ### Chrome devtools
-### [Tikal Timesheet](https://github.com/awslabs/mcp/tree/main/src/tikal-timesheet)
+### [Tikal Timesheet](https://ampcode.com/threads/T-339992f4-7954-453d-bb0d-894e64b3efad)
 ### [Observability with Coroot](https://ampcode.com/threads/T-ab811ea1-4c14-483a-b4d7-f1c3d39360a1)
 ### [K8S check alembic migrations applied](https://ampcode.com/threads/T-a2520979-49ef-4a8b-a0be-e2997bc66102)
